@@ -12,7 +12,7 @@ def goodreads_export(download_path, destination_path):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-download_path = '~/Downloads/goodreads*.csv'
-destination_path = '~/Documents/my_other_brain/archives/exports/goodreads*.csv'
+download_path = '~/Downloads/goodreads_library_export.csv'
+destination_path = '~/Documents/my_other_brain/archives/exports/goodreads.csv'
 
 goodreads_export(download_path, destination_path)
