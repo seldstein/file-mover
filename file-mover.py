@@ -20,5 +20,3 @@ destination_path = os.path.expanduser('~/Documents/my_other_brain/archives/expor
 files_moved = ["goodreads_library_export.csv", "calendar.ics"]
 
 move_files(download_path, destination_path, files_moved)
-
-0 0 1 * * usr/bin/python3 /Users/Samfeld/repos/to/file-mover/script.py
